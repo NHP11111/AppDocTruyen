@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.truyenhai"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="12"
+        android:targetSdkVersion="20" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".GioiThieuActivity"
+            android:label="@string/title_activity_gioi_thieu" >
+        </activity>
+        <activity
+            android:name=".TrangChuActivity"
+            android:label="@string/title_activity_trang_chu" >
+        </activity>
+        <activity
+            android:name="com.example.noidungtruyen.TruyencuoihocsinhActivity"
+            android:label="@string/title_activity_truyencuoihocsinh" >
+        </activity>
+        <activity
+            android:name="com.example.noidungtruyen.TruyencuoidangianActivity"
+            android:label="@string/title_activity_truyencuoidangian" >
+        </activity>
+        <activity
+            android:name="com.example.noidungtruyen.TruyencuoitinhyeuActivity"
+            android:label="@string/title_activity_truyencuoitinhyeu" >
+        </activity>
+        <activity
+            android:name="com.example.noidungtruyen.TruyencuoikinhdoanhActivity"
+            android:label="@string/title_activity_truyencuoikinhdoanh" >
+        </activity>
+        <activity
+            android:name=".ListtruyenActivity"
+            android:label="@string/title_activity_listtruyen" >
+        </activity>
+        <activity
+            android:name=".Listtruyen2Activity"
+            android:label="@string/title_activity_listtruyen2" >
+        </activity>
+        <activity
+            android:name=".ListTruyen2Activity"
+            android:label="@string/title_activity_list_truyen2" >
+        </activity>
+    </application>
+
+</manifest>

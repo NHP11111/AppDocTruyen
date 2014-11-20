@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TruyenHai</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_gioi_thieu">GioiThieuActivity</string>
+    <string name="title_activity_trang_chu">TrangChuActivity</string>
+    <string name="title_activity_truyencuoihocsinh">TruyencuoihocsinhActivity</string>
+    <string name="title_activity_truyencuoidangian">TruyencuoidangianActivity</string>
+    <string name="title_activity_truyencuoitinhyeu">TruyencuoitinhyeuActivity</string>
+    <string name="title_activity_truyencuoikinhdoanh">TruyencuoikinhdoanhActivity</string>
+    <string name="title_activity_listtruyen">ListtruyenActivity</string>
+    <string name="title_activity_listtruyen2">Listtruyen2Activity</string>
+    <string name="title_activity_list_truyen2">ListTruyen2Activity</string>
+
+</resources>

@@ -1,0 +1,132 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_0003"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/scrollView1" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/LN_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="260dp"
+                    android:background="@drawable/icon_dangian"
+                    android:paddingTop="90dp"
+                    android:text="Dân Gian"
+                    android:textColor="#FF6347" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="220dp"
+                    android:background="@drawable/icon_bua"
+                    android:paddingTop="90dp"
+                    android:text="Truyện Bựa"
+                    android:textColor="#FF6347" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LN_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/LN_1"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="400dp"
+                    android:background="@drawable/ic_tinhyeu"
+                    android:paddingTop="90dp"
+                    android:text="Tinh Yêu"
+                    android:textColor="#FF6347" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="220dp"
+                    android:background="@drawable/ic_hocsinh"
+                    android:paddingTop="90dp"
+                    android:text=" Học Sinh"
+                    android:textColor="#FF6347" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LN_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/LN_2"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="260dp"
+                    android:background="@drawable/icon_congai"
+                    android:paddingTop="90dp"
+                    android:text="Con Gái"
+                    android:textColor="#FF6347" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="220dp"
+                    android:background="@drawable/icon_contrai"
+                    android:paddingTop="90dp"
+                    android:text="Con Trai"
+                    android:textColor="#FF6347" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LN_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/LN_3"
+                android:orientation="horizontal"
+                android:textColor="#FF6347" >
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="400dp"
+                    android:background="@drawable/ic_thethao"
+                    android:paddingTop="90dp"
+                    android:text=" Thể Thao"
+                    android:textColor="#FF6347" />
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="220dp"
+                    android:background="@drawable/ic_tho"
+                    android:paddingTop="90dp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
