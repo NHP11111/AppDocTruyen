@@ -13,5 +13,15 @@
     <string name="title_activity_listtruyen">ListtruyenActivity</string>
     <string name="title_activity_listtruyen2">Listtruyen2Activity</string>
     <string name="title_activity_list_truyen2">ListTruyen2Activity</string>
+    <string name="title_activity_congai">CongaiActivity</string>
+    <string name="title_activity_con_trai">ConTraiActivity</string>
+    <string name="title_activity_tho">ThoActivity</string>
+    <string name="title_activity_truyenbua">TruyenbuaActivity</string>
+    <string name="title_activity_listtruyen3">Listtruyen3Activity</string>
+    <string name="title_activity_listtruyen4">Listtruyen4Activity</string>
+    <string name="title_activity_listtruyen5">Listtruyen5Activity</string>
+    <string name="title_activity_listtruyen6">Listtruyen6Activity</string>
+    <string name="title_activity_listtruyen7">Listtruyen7Activity</string>
+    <string name="title_activity_listtruyen1">Listtruyen1Activity</string>
 
 </resources>

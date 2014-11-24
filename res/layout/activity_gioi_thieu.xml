@@ -7,6 +7,20 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:text="Sản Phẩm Của Phucnhpd00954"
+        android:id="@+id/aaa" />
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Liên Hệ : Phucnhpd00954@fpt.edu.vn" 
+        android:layout_below="@+id/aaa"
+        android:id="@+id/bbb"/>
+     
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ứng Dụng Giúp Bạn Thư Giản Những Lúc Bị Street Hoặc Mệt Mỏi Trong Công Việc , Và Tiện Lợi Hơn Nữa Là Bạn Có Thể Sử Dụng Không Cần Internet.
+     Chúc Bạn Có Những Trận Cười Sảng Khoái   " 
+        android:layout_below="@+id/bbb"/>
 
 </RelativeLayout>

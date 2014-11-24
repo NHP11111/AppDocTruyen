@@ -22,15 +22,13 @@ import android.widget.AdapterView.OnItemClickListener;
 public class TruyencuoitinhyeuActivity extends Activity {
 	private ListView songsListView;
 	private ArrayAdapter<String> listAdapter;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_truyencuoitinhyeu);
 		songsListView = (ListView) findViewById(R.id.listtinhyeu);
-		final String[] songs = new String[] { "HÀi Ghê", "Phóng Sinh",
-				"Mày Để Cho Nó Một Chút", "Đóng Oản", "Nước Mắm Hâm",
-				"Hổ Phụ Sinh Hổ Tử", "Tệ", "Đắp Chăn", "Hâm Cứt", "Sĩ Diện",
-				"Tri Kỹ", "Sợ Vợ" };
+		final String[] songs = new String[] { "Sợ Vợ",  };
 		final ArrayList<String> songtList = new ArrayList<String>();
 		songtList.addAll(Arrays.asList(songs));
 		listAdapter = new ArrayAdapter<String>(this,

@@ -2,8 +2,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="${relativePackage}.${activityClass}"
-     android:background="@drawable/ic_anh3" >
+    android:background="@drawable/ic_anh3"
+    tools:context="${relativePackage}.${activityClass}" >
 
     <LinearLayout
         android:id="@+id/linear"
@@ -12,27 +12,21 @@
         android:layout_centerInParent="true"
         android:layout_centerVertical="true"
         android:orientation="vertical"
-        android:padding="100dp"
-
-       
-        
-       >
+        android:padding="100dp" >
 
         <EditText
             android:id="@+id/edA"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-         
             android:textColor="#FFD700" >
-
-           
         </EditText>
 
         <EditText
             android:id="@+id/edB"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-             android:textColor="#FFD700" />
+            android:password="true"
+            android:textColor="#FFD700" />
 
         <Button
             android:id="@+id/btnOK"

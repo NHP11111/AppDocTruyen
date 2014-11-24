@@ -47,7 +47,7 @@
             android:label="@string/title_activity_truyencuoitinhyeu" >
         </activity>
         <activity
-            android:name="com.example.noidungtruyen.TruyencuoikinhdoanhActivity"
+            android:name="com.example.noidungtruyen.TruyencuoithethaoActivity"
             android:label="@string/title_activity_truyencuoikinhdoanh" >
         </activity>
         <activity
@@ -61,6 +61,46 @@
         <activity
             android:name=".ListTruyen2Activity"
             android:label="@string/title_activity_list_truyen2" >
+        </activity>
+        <activity
+            android:name="com.example.noidungtruyen.CongaiActivity"
+            android:label="@string/title_activity_congai" >
+        </activity>
+        <activity
+            android:name="com.example.noidungtruyen.ConTraiActivity"
+            android:label="@string/title_activity_con_trai" >
+        </activity>
+        <activity
+            android:name="com.example.noidungtruyen.ThoActivity"
+            android:label="@string/title_activity_tho" >
+        </activity>
+        <activity
+            android:name="com.example.noidungtruyen.TruyenbuaActivity"
+            android:label="@string/title_activity_truyenbua" >
+        </activity>
+        <activity
+            android:name=".Listtruyen3Activity"
+            android:label="@string/title_activity_listtruyen3" >
+        </activity>
+        <activity
+            android:name=".Listtruyen4Activity"
+            android:label="@string/title_activity_listtruyen4" >
+        </activity>
+        <activity
+            android:name=".Listtruyen5Activity"
+            android:label="@string/title_activity_listtruyen5" >
+        </activity>
+        <activity
+            android:name=".Listtruyen6Activity"
+            android:label="@string/title_activity_listtruyen6" >
+        </activity>
+        <activity
+            android:name=".Listtruyen7Activity"
+            android:label="@string/title_activity_listtruyen7" >
+        </activity>
+        <activity
+            android:name=".Listtruyen1Activity"
+            android:label="@string/title_activity_listtruyen1" >
         </activity>
     </application>
 

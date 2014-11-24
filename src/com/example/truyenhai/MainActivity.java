@@ -34,7 +34,7 @@ public class MainActivity extends TabActivity {
 		    tabHost.addTab(spec);
 
 		    intent = new Intent().setClass(this, GioiThieuActivity.class);
-		    spec = tabHost.newTabSpec("Second").setIndicator("Ảnh Hài")
+		    spec = tabHost.newTabSpec("Second").setIndicator("Giới Thiệu")
 		                  .setContent(intent);
 		    tabHost.addTab(spec);
 

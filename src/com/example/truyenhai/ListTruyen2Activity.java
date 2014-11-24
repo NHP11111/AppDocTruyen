@@ -24,7 +24,7 @@ public class ListTruyen2Activity extends Activity {
 		Intent intent = getIntent();
 		String c = intent.getStringExtra("B");
 		InputStream in = null;
-		if (c.equals("HÀi Ghê")) {
+		if (c.equals("Sá»£ Vá»£")) {
 			in = getResources().openRawResource(R.raw.truyen11);
 		}
 

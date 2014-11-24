@@ -1,8 +1,12 @@
 package com.example.truyenhai;
 
+import com.example.noidungtruyen.ConTraiActivity;
+import com.example.noidungtruyen.CongaiActivity;
+
+import com.example.noidungtruyen.TruyenbuaActivity;
 import com.example.noidungtruyen.TruyencuoidangianActivity;
 import com.example.noidungtruyen.TruyencuoihocsinhActivity;
-import com.example.noidungtruyen.TruyencuoikinhdoanhActivity;
+import com.example.noidungtruyen.TruyencuoithethaoActivity;
 import com.example.noidungtruyen.TruyencuoitinhyeuActivity;
 
 import android.app.Activity;
@@ -33,6 +37,49 @@ public class TrangChuActivity extends Activity {
 		TC_thethao = (Button) findViewById(R.id.button7);
 		TC_tho = (Button) findViewById(R.id.button8);
 	
+		
+		
+		
+		TC_tho.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				Intent intent = new Intent(TrangChuActivity.this,Listtruyen5Activity.class);
+				startActivity(intent);
+			
+			}
+		});
+		TC_thethao.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				Intent intent = new Intent(TrangChuActivity.this,TruyencuoithethaoActivity.class);
+				startActivity(intent);
+			
+			}
+		});
+		TC_contrai.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				Intent intent = new Intent(TrangChuActivity.this,ConTraiActivity.class);
+				startActivity(intent);
+			
+			}
+		});
+		TC_congai.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				Intent intent = new Intent(TrangChuActivity.this,CongaiActivity.class);
+				startActivity(intent);
+			
+			}
+		});
 		TC_dangian.setOnClickListener(new OnClickListener() {
 
 			@Override
@@ -48,7 +95,7 @@ public class TrangChuActivity extends Activity {
 			@Override
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
-				Intent intent = new Intent(TrangChuActivity.this,TruyencuoikinhdoanhActivity.class);
+				Intent intent = new Intent(TrangChuActivity.this,TruyenbuaActivity.class);
 				startActivity(intent);
 			
 			}

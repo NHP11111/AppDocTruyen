@@ -11,12 +11,15 @@ import com.example.truyenhai.R.layout;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
+import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -24,14 +27,14 @@ import android.widget.Toast;
 public class TruyencuoidangianActivity extends Activity {
 	private ListView songsListView;
 	private ArrayAdapter<String> listAdapter;
-
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 
 		setContentView(R.layout.activity_truyencuoidangian);
 		songsListView = (ListView) findViewById(R.id.listview4);
-
+		
 		// Create and populate a List of songs names.
 		final String[] songs = new String[] { "Chả Giấu Gì Bác", "Phóng Sinh",
 				"Mày Để Cho Nó Một Chút", "Đóng Oản", "Nước Mắm Hâm",
@@ -58,19 +61,9 @@ public class TruyencuoidangianActivity extends Activity {
 				String a = songtList.get(position);
 				intent.putExtra("A", a);
 				startActivity(intent);
-
-				//
-				// if (position == 0) {
-				//
-				// startActivity(startReadingTheLyrics);
-				// } else if (position == 1) {
-				// Intent startReadingTheLyrics = new
-				// Intent(TruyencuoidangianActivity.this,
-				// Listtruyen2Activity.class);
-				// startActivity(startReadingTheLyrics);
-				// }
-
 			}
 		});
+		 
+	          
 	}
 }

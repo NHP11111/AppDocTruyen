@@ -23,7 +23,7 @@ TextView tv;
 		tv=(TextView)findViewById(R.id.textview1);
 		Intent intent = getIntent();
 		String n=intent.getStringExtra("A");
-		String c=intent.getStringExtra("B");
+	
 		InputStream in=null;
 		if(n.equals("Chả Giấu Gì Bác")){
 			 in= getResources().openRawResource(R.raw.aaa);

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 import com.example.truyenhai.ListTruyen2Activity;
-import com.example.truyenhai.Listtruyen1Activity;
+import com.example.truyenhai.Listtruyen3Activity;
 import com.example.truyenhai.R;
 import com.example.truyenhai.R.layout;
 
@@ -19,15 +19,15 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.AdapterView.OnItemClickListener;
 
-public class TruyencuoihocsinhActivity extends Activity {
+public class TruyencuoithethaoActivity extends Activity {
 	private ListView songsListView;
 	private ArrayAdapter<String> listAdapter;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_truyencuoihocsinh);
-		songsListView = (ListView) findViewById(R.id.listview3);
-		final String[] songs = new String[] { "Đứng Nhất","Từ Đồng Nghĩa","Tội Lừa Dối"  };
+		setContentView(R.layout.activity_truyencuoikinhdoanh);
+		songsListView = (ListView) findViewById(R.id.listview2);
+		final String[] songs = new String[] { "Bao Quát Cả Sân","Mắt Lé","Còn Chưa Xuống Đến Nơi"  };
 		final ArrayList<String> songtList = new ArrayList<String>();
 		songtList.addAll(Arrays.asList(songs));
 		listAdapter = new ArrayAdapter<String>(this,
@@ -39,13 +39,12 @@ public class TruyencuoihocsinhActivity extends Activity {
 			public void onItemClick(AdapterView<?> arg0, View view,
 					int position, long arg3) {
 				// TODO Auto-generated method stub
-				Intent intent = new Intent(TruyencuoihocsinhActivity.this,
-						Listtruyen1Activity.class);
+				Intent intent = new Intent(TruyencuoithethaoActivity.this,
+						Listtruyen3Activity.class);
 				String a = songtList.get(position);
 				intent.putExtra("B", a);
 				startActivity(intent);
 			}
 		});
-
 	}
 }
